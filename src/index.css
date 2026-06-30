@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
-  /* LIGHT MODE */
-  --bg-color: #ffffff; /* White */
+  --bg-color: #ffffff;
   --card-bg: #ffffff;
-  --primary-text: #1a1a1a; /* Dark Text for readability */
+  --primary-text: #1a1a1a;
   --secondary-text: #666666;
-  --border-color: rgba(255, 103, 0, 0.2); /* Subtle orange border */
-  --accent-color: #ff6700; /* Vibrant Orange */
+  --border-color: rgba(255, 103, 0, 0.2);
+  --accent-color: #ff6700;
   --accent-hover: #e05a00;
   --success-color: #0F766E;
   --signal-glow: rgba(255, 103, 0, 0.15);
@@ -19,13 +18,12 @@
 }
 
 [data-theme='dark'] {
-  /* DARK MODE */
-  --bg-color: #121212; /* Dark Gray for contrast */
+  --bg-color: #121212;
   --card-bg: #1e1e1e;
-  --primary-text: #ffffff; /* White Text */
+  --primary-text: #ffffff;
   --secondary-text: #aaaaaa;
   --border-color: rgba(255, 103, 0, 0.2);
-  --accent-color: #ff6700; /* Vibrant Orange */
+  --accent-color: #ff6700;
   --accent-hover: #ff8533;
   --success-color: #0F766E;
   --signal-glow: rgba(255, 103, 0, 0.15);
@@ -74,7 +72,6 @@ a:hover {
   margin: 0 auto;
 }
 
-/* Base Card Styling */
 .card {
   background-color: var(--card-bg);
   border: 1px solid var(--border-color);
@@ -89,7 +86,6 @@ a:hover {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-/* Button Styling */
 .btn-primary {
   display: inline-flex;
   align-items: center;
@@ -134,7 +130,6 @@ a:hover {
   color: var(--accent-color);
 }
 
-/* Background Effects */
 .circuit-bg {
   position: fixed;
   top: 0;

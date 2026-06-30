@@ -46,7 +46,6 @@
   overflow: hidden;
 }
 
-/* Subtle shine effect on the progress bar */
 .skill-bar-fill::after {
   content: '';
   position: absolute;
